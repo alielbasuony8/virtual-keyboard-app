@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Virtual Keyboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="txt-area">
+        <textarea name="text" id="text" class="text" placeholder="Type anything"></textarea>
+      </div>
+      <div class="keyboard-wrapper">
+        <div class="keyboard-keys">
+          <div class="row">
+            <button class="key char">`</button>
+            <button class="key char">1</button>
+            <button class="key char">2</button>
+            <button class="key char">3</button>
+            <button class="key char">4</button>
+            <button class="key char">5</button>
+            <button class="key char">6</button>
+            <button class="key char">7</button>
+            <button class="key char">8</button>
+            <button class="key char">9</button>
+            <button class="key char">0</button>
+            <button class="key char">-</button>
+            <button class="key char">=</button>
+            <button class="key backspace-key">Backspace</button>
+          </div>
+          <div class="row">
+            <button class="key tab-key">Tab</button>
+            <button class="key char">q</button>
+            <button class="key char">w</button>
+            <button class="key char">e</button>
+            <button class="key char">r</button>
+            <button class="key char">t</button>
+            <button class="key char">y</button>
+            <button class="key char">u</button>
+            <button class="key char">i</button>
+            <button class="key char">o</button>
+            <button class="key char">p</button>
+            <button class="key char">[</button>
+            <button class="key char">]</button>
+            <button class="key char slash-key">\</button>
+          </div>
+          <div class="row">
+            <button class="key capslock-key">CapsLock <span class="capslamp"></span></button>
+            <button class="key char">a</button>
+            <button class="key char">s</button>
+            <button class="key char">d</button>
+            <button class="key char">f</button>
+            <button class="key char">g</button>
+            <button class="key char">h</button>
+            <button class="key char">j</button>
+            <button class="key char">k</button>
+            <button class="key char">l</button>
+            <button class="key char">;</button>
+            <button class="key char">'</button>
+            <button class="key enter-key">Enter</button>
+          </div>
+          <div class="row">
+            <button class="key shift-key shift-l-key">Shift</button>
+            <button class="key char">z</button>
+            <button class="key char">x</button>
+            <button class="key char">c</button>
+            <button class="key char">v</button>
+            <button class="key char">b</button>
+            <button class="key char">n</button>
+            <button class="key char">m</button>
+            <button class="key char">,</button>
+            <button class="key char">.</button>
+            <button class="key char">/</button>
+            <button class="key shift-key shift-r-key">Shift</button>
+          </div>
+          <div class="row">
+            <button class="key ctrl-key ctrl-l-key">Ctrl</button>
+            <button class="key clear-all" title="Clear All">CA</button>
+            <button class="key alt-key alt-l-key">Alt</button>
+            <button class="key space-key"></button>
+            <button class="key alt-key alt-r-key">Alt</button>
+            <button class="key ctrl-key ctrl-r-key">Ctrl</button>
+            <button class="key toggle">AR</button>
+            <div class="arrow-keys">
+              <div class="top-keys">
+                <button class="key arrow-key up-key">↑</button>
+              </div>
+              <div class="bottom-keys">
+                <button class="key arrow-key left-key">←</button>
+                <button class="key arrow-key down-key">↓</button>
+                <button class="key arrow-key right-key">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/utils/utils.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
